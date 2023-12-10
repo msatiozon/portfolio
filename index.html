@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+	<title>PORTFOLIO</title>
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+	<!-- NAVBAR -->
+	<nav class="navbar navbar-expand-md">
+		<a class="navbar-brand" id="home1">
+<img src="logo.png" class="logo" alt="logo"></a>
+<button class="navbar-toggler me-3 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#btn">
+	<i class='bx bx-menu bx-md'></i>
+</button>
+<div class="collapse navbar-collapse ul-bg" id="btn">
+	<ul class="navbar-nav ms-auto">
+		<li class="nav-item">
+			<a href="#home" class="nav-link mx-3 text-white fs-5">Home</a>
+		</li>
+		<li class="nav-item">
+			<a href="#abt" class="nav-link mx-3 text-white fs-5">About</a>
+		</li>
+		<li class="nav-item">
+			<a href="#port" class="nav-link mx-3 text-white fs-5">Portfolio</a>
+		</li>
+		<li class="nav-item">
+			<a href="#contact" class="nav-link mx-3 text-white fs-5">Contact</a>
+		</li>
+	</ul>
+</div>
+</nav>
+<!-- NAVBAR -->
+
+
+<!-- Home -->
+<section id="home" class="container">
+	<div class="row min-vh-100 align-items-center">
+		<div class="col-6 justify-content-center">
+			<h1 class="fw-bold" data-aos="fade-up">Hello!</h1>
+			<h1 class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">I am Sam. I am currently a student at KLD who dreams of becoming successful and wealthy one day.</h1>
+			<div class="social">
+				<a href="https://www.facebook.com/msatiozon?mibextid=ZbWKwL" class="social__icon"><i class='bx bxl-facebook'></i></a>
+				<a href="https://instagram.com/samanthatiozon?igshid=YzAwZjE1ZTI0Zg==" class="social__icon"><i class='bx bxl-instagram'></i></a>
+				<a href="https://x.com/msatiozon?t=uNRmtMkOJFxjBk4NTVOf6w&s=09" class="social__icon"><i class='bx bxl-twitter'></i></a>
+			</div>
+		</div>
+		<div class="col-6">
+			<img class="profile-picture img img-fluid" src="ID.jpg" alt="Profile Picture">
+		</div>
+	</div>
+</section>
+<!-- Home -->
+
+<!-- About -->
+<section id="abt" class="container d-flex justify-content-center align-items-center min-vh-100">
+	<div class="row text-center">
+		<h1 class="fw-bold section-title">About</h1>
+		<div class="col-6">
+			<img class="profile-picture2 img img-fluid" src="sam1.jpg" alt="Profile Picture">
+		</div>
+		<div class="col-6 d-flex flex-column justify-content-center align-items-center">
+			<h1 class="fw-bold" data-aos="fade-up">I'm Ma. Samantha Ann Tiozon.</h1>
+			<h1 class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">You can also call me by my nickname, which is Sam. I am a first-year working student currently studying at Kolehiyo ng Lungsod ng Dasmariñas (KLD), taking up Bachelor of Science in Information System. I work at Jollibee as a Service Crew, and I enjoy taking photos as well.</h1>
+			<div class="btn-container">
+				<button class="btn" onclick="window.open('./TIOZON-RESUME-UPDATED.pdf')">
+					Download CV
+				</button>
+			</div>
+		</div>
+</section>
+<!-- About -->
+
+
+
+<!-- Work -->
+<section id="port" class="container d-flex justify-content-center align-items-center min-vh-100">
+	<div class="row">
+		<div class="container mt-5">
+			<h1 class="section-title fw-bold">Portfolio</h1>
+			<ul class="nav nav-pills" id="pills-tab" role="tablist">
+				<li class="nav-item" role="presentation">
+					<button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Website</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="nav-link" id="pills-about-tab" data-bs-toggle="pill" data-bs-target="#pills-about" type="button" role="tab" aria-controls="pills-about" aria-selected="false">Pictures</button>
+				</li>
+			</ul>
+			<div class="tab-content mt-3">
+				<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+					<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="web2.png" class="d-block w-100" alt="2">
+							</div>
+							<div class="carousel-item">
+								<img src="web1.png" class="d-block w-100" alt="1">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="tab-pane fade" id="pills-about" role="tabpanel" aria-labelledby="pills-about-tab">
+					<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="work1.jpeg" class="d-block w-100" alt="w1">
+							</div>
+							<div class="carousel-item">
+								<img src="work2.jpeg" class="d-block w-100" alt="w3">
+							</div>
+							<div class="carousel-item">
+								<img src="work3.jpeg" class="d-block w-100" alt="w3">
+							</div>
+							<div class="carousel-item">
+								<img src="work4.jpeg" class="d-block w-100" alt="w3">
+							</div>
+							<div class="carousel-item">
+							<img src="work5.jpeg" class="d-block w-100" alt="w3">
+														</div>
+						</div>
+					</div>
+				</div>
+			</div>
+</section>
+<!-- Work -->
+
+<!-- Contact -->
+<main class="d-flex justify-content-center align-items-center min-vh-100">
+	<section id="contact" class="contact section">
+		<h1 class="section-title fw-bold">Contact</h2>
+			<div class="contact__container bd-grid">
+				<form action="" class="contact__form">
+					<input type="text" placeholder="Name" class="contact__input">
+					<input type="mail" placeholder="Email" class="contact__input">e"
+					<textarea name="" id="" cols="0" rows="10" class="contact__input" placeholder="Comment"></textarea>
+					<input type="button" value="Enter" class="contact__button button">
+			</div>
+			</form>
+			</div>
+	</section>
+</main>
+<!-- Contact -->
+
+<!-- Footer -->
+<div class="content-wrapper">
+</div>
+<footer class="footer">
+	<p class="footer__title">Samantha Tiozon</p>
+	<div class="footer__social">
+		<a href="https://www.facebook.com/msatiozon?mibextid=ZbWKwL" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+		<a href="https://instagram.com/samanthatiozon?igshid=YzAwZjE1ZTI0Zg==" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+		<a href="https://x.com/msatiozon?t=uNRmtMkOJFxjBk4NTVOf6w&s=09" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+	</div>
+	<p class="footer__copy">msaTiozon &#169; 2023</p>
+</footer>
+</div>
+<!-- Footer -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
